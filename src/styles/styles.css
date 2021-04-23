@@ -1,0 +1,140 @@
+.Header {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+
+.Header .HeaderName {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(186, 223, 245, 0.2);
+    color: #03178C;
+    
+   
+   
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.Header .HeaderName p {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 0.0;
+    
+}
+
+.Header .Divisor {
+    background-color: #437de9;
+    margin-top: 20px;
+    height: 1px;
+    min-width: 300px;
+   
+}
+
+.Header .Links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    
+    
+}
+
+.Header .Links a {
+    text-decoration: none;
+    color: #03178C;
+}
+
+.Page {
+    max-width: 100%;
+    font-family: 'Lato', sans-serif;
+   
+    margin: 0 auto;
+    
+}
+
+.NewBody {
+    display: flex;
+    flex-direction: flex-end;
+    
+    margin-top: 25px;
+}
+
+.NewBody .BodyColl1 {
+    width: 27%;
+    
+    
+}
+
+.NewBody .BodyColl2 {
+    width: 70%;
+}
+
+.Tittle {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.Tittle p {
+    font-size: 30px;
+    color: #03178C;
+}
+
+.NewBody .Divisor {
+    width: 1px;
+    background-color: rgb(152, 148, 209);
+}
+
+.SkillsStyle {
+    display: flex;
+    padding-left: 10px;
+    text-align: start;
+    line-height: 0;
+    width: 100%;
+    
+}
+
+.Skill  {
+    margin-right: 5px;
+    background-color: chartreuse;
+}
+
+.ExperienceStyle {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    border-left: 2px solid #437de9;
+    padding-left: 20px;
+    margin-left: 15px;
+    
+}
+
+.StrongExp {
+    margin-top: 10px;
+    font-weight:900;
+}
+
+.StarsContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.StarsContainer img {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 8.5px;
+    margin-top: 8.5px;
+    margin-right: 1px;
+}
